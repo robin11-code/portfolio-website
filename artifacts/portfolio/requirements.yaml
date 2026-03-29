@@ -1,0 +1,13 @@
+packages:
+  "framer-motion": "For page transitions and scroll-triggered animations to add premium feel"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility function to efficiently merge Tailwind CSS classes"
+
+images:
+  - path: "artifacts/portfolio/public/images/hero-bg.png"
+    description: "Abstract highly professional background with deep navy blue, slate dark tones, and subtle vibrant teal and electric blue light leaks. Sleek, corporate, dark mode aesthetic, smooth gradients."
+    aspect_ratio: "16:9"
+
+notes:
+  - Purely static portfolio frontend based on provided resume data. No API or backend needed.
+  - Native smooth scrolling is implemented via CSS.
