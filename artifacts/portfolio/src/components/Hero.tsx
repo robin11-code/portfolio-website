@@ -56,13 +56,13 @@ export function Hero() {
               >
                 Hire Me
               </a>
-              <button 
-                onClick={() => alert("Resume download functionality would trigger here.")}
+              <a 
+                href="#contact"
                 className="px-8 py-4 rounded-xl font-semibold bg-secondary text-white border border-white/10 hover:bg-white/10 hover:-translate-y-1 transition-all duration-300 flex items-center gap-2"
               >
                 <Download size={18} />
-                Download Resume
-              </button>
+                Get In Touch
+              </a>
             </div>
           </motion.div>
         </div>
