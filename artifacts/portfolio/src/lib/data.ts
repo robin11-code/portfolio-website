@@ -5,7 +5,7 @@ export const portfolioData = {
     location: "Bangalore - 560060",
     email: "robinmech1996@gmail.com",
     phone: "+91 9113566236",
-    linkedin: "https://www.linkedin.com/in/robin",
+    linkedin: "https://www.linkedin.com/in/robin96",
     tagline: "Dynamic professional with 7 years of experience in business analysis, specializing in IT solutions for Fintech, Healthcare, and Social Media sectors.",
     summary: "A results-driven Senior Business Analyst with a proven track record at GeekyAnts and TCS. Expertise in Agile methodologies, cross-functional team leadership, and stakeholder engagement. Highly proficient in analytical tools, risk assessment, and delivering products that significantly boost client satisfaction and operational efficiency."
   },
