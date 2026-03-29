@@ -1,19 +1,31 @@
 export const portfolioData = {
   personal: {
     name: "Robin",
-    title: "Senior Business Analyst / Product Owner",
+    title: "Product Owner",
     location: "Bangalore - 560060",
     email: "robinmech1996@gmail.com",
     phone: "+91 9113566236",
     linkedin: "https://www.linkedin.com/in/robin96",
-    tagline: "Dynamic professional with 7 years of experience in business analysis, specializing in IT solutions for Fintech, Healthcare, and Social Media sectors.",
-    summary: "A results-driven Senior Business Analyst with a proven track record at GeekyAnts and TCS. Expertise in Agile methodologies, cross-functional team leadership, and stakeholder engagement. Highly proficient in analytical tools, risk assessment, and delivering products that significantly boost client satisfaction and operational efficiency."
+    tagline: "Product Owner with 7+ years of experience driving digital products from concept to delivery across fintech and enterprise domains.",
+    summary: "Product Owner with 7+ years of experience driving digital products from concept to delivery across fintech and enterprise domains, currently building scalable SaaS solutions at Repurpose.io. I own product backlogs, define roadmaps, and collaborate with cross-functional teams to deliver automation-driven features that enhance user experience and drive platform growth. Working in a product-first environment has strengthened my focus on customer-centric thinking, rapid iteration, and delivering measurable product outcomes. My journey from Business Analysis to Product Ownership enables me to bridge strategy, technology, and execution — ensuring that every feature delivered creates real business impact."
   },
   experience: [
     {
+      role: "Product Owner",
+      company: "Repurpose.io",
+      period: "Mar 2026 – Present",
+      responsibilities: [
+        "Own the product backlog and define roadmaps for a scalable SaaS automation platform.",
+        "Collaborate with cross-functional teams to deliver automation-driven features that enhance user experience and drive platform growth.",
+        "Apply customer-centric thinking and rapid iteration to deliver measurable product outcomes.",
+        "Bridge strategy, technology, and execution to ensure every feature creates real business impact.",
+        "Work in a product-first environment focused on fintech and enterprise domain solutions."
+      ]
+    },
+    {
       role: "Senior Business Analyst",
       company: "GeekyAnts",
-      period: "Oct 2021 – Present",
+      period: "Oct 2021 – Mar 2026",
       responsibilities: [
         "Develop and maintain product roadmaps, ensuring alignment with overarching business strategy.",
         "Lead cross-functional teams to deliver projects, reducing timelines by 20%.",

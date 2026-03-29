@@ -30,7 +30,7 @@ export function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-primary"></span>
               </span>
-              <span className="text-sm font-medium text-muted-foreground">Available for new opportunities</span>
+              <span className="text-sm font-medium text-muted-foreground">Currently Product Owner at Repurpose.io</span>
             </div>
             
             <h1 className="text-5xl md:text-7xl font-display font-bold text-white leading-tight mb-6">
