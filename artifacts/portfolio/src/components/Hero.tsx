@@ -52,13 +52,7 @@ export function Hero() {
             <div className="flex flex-wrap gap-4">
               <a 
                 href="#contact"
-                className="px-8 py-4 rounded-xl font-semibold bg-primary text-primary-foreground shadow-[0_0_30px_rgba(0,229,255,0.2)] hover:shadow-[0_0_40px_rgba(0,229,255,0.4)] hover:-translate-y-1 transition-all duration-300"
-              >
-                Hire Me
-              </a>
-              <a 
-                href="#contact"
-                className="px-8 py-4 rounded-xl font-semibold bg-secondary text-white border border-white/10 hover:bg-white/10 hover:-translate-y-1 transition-all duration-300 flex items-center gap-2"
+                className="px-8 py-4 rounded-xl font-semibold bg-primary text-primary-foreground shadow-[0_0_30px_rgba(0,229,255,0.2)] hover:shadow-[0_0_40px_rgba(0,229,255,0.4)] hover:-translate-y-1 transition-all duration-300 flex items-center gap-2"
               >
                 <Download size={18} />
                 Get In Touch
