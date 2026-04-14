@@ -7,8 +7,16 @@ export function Footer() {
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} {portfolioData.personal.name}. All rights reserved.
         </p>
-        <p className="text-sm text-primary/80 font-medium">
-          Open to Remote & Bangalore opportunities.
+        <p className="text-sm text-muted-foreground">
+          Built by{" "}
+          <a
+            href={portfolioData.personal.linkedin}
+            target="_blank"
+            rel="noreferrer"
+            className="text-primary font-medium hover:underline"
+          >
+            Robin
+          </a>
         </p>
       </div>
     </footer>
