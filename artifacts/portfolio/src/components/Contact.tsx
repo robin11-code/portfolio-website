@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { SectionHeading } from "./SectionHeading";
 import { portfolioData } from "@/lib/data";
-import { Mail, Phone, Linkedin, MapPin, Send } from "lucide-react";
+import { Mail, Phone, Linkedin, MapPin } from "lucide-react";
 
 export function Contact() {
   return (
@@ -22,14 +22,6 @@ export function Contact() {
           <p className="text-muted-foreground mb-10 max-w-xl mx-auto">
             I'm currently open to new opportunities in Bangalore or remote roles. Whether you have a question or just want to say hi, I'll try my best to get back to you!
           </p>
-
-          <a 
-            href={`mailto:${portfolioData.personal.email}`}
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold bg-primary text-primary-foreground shadow-[0_0_20px_rgba(0,229,255,0.2)] hover:shadow-[0_0_30px_rgba(0,229,255,0.4)] hover:-translate-y-1 transition-all duration-300 mb-12"
-          >
-            <Send size={18} />
-            Say Hello
-          </a>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 pt-10 border-t border-border">
             <a href={`mailto:${portfolioData.personal.email}`} className="flex flex-col items-center gap-3 group">
