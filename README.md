@@ -21,45 +21,46 @@ Currently, I am focused on evolving into an **AI-driven Product Leader**, levera
 
 This portfolio is designed to:
 
-* Showcase my professional journey and product thinking
-* Highlight my experience in SDLC and product delivery
-* Demonstrate my approach to problem-solving and decision-making
-* Reflect my transition toward AI-enabled product innovation
+- Showcase my professional journey and product thinking
+- Highlight my experience in SDLC and product delivery
+- Demonstrate my approach to problem-solving and decision-making
+- Reflect my transition toward AI-enabled product innovation
 
 ---
 
 ## 🛠️ Tech Stack
 
-* HTML, CSS, JavaScript
-* Replit (Development environment)
-* GitHub (Version control)
+- HTML, CSS, JavaScript
+- Cursor (Development environment)
+- GitHub (Version control)
+- Vercel (Deployment)
 
 ---
 
 ## ✨ Key Highlights
 
-* 📌 Product ownership with end-to-end SDLC exposure
-* 📌 Strong background in Business Analysis and requirement engineering
-* 📌 Experience in roadmap alignment and feature prioritization
-* 📌 Exposure to fintech domain and compliance ecosystems
-* 📌 Data-informed decision-making and stakeholder management
+- 📌 Product ownership with end-to-end SDLC exposure
+- 📌 Strong background in Business Analysis and requirement engineering
+- 📌 Experience in roadmap alignment and feature prioritization
+- 📌 Exposure to fintech domain and compliance ecosystems
+- 📌 Data-informed decision-making and stakeholder management
 
 ---
 
 ## 📈 Core Strengths
 
-* Product Thinking & Roadmapping
-* Business Analysis & Requirement Gathering
-* Stakeholder Management
-* Agile & Scrum Practices
-* Problem Solving & Process Optimization
-* AI-driven Product Exploration (emerging focus)
+- Product Thinking & Roadmapping
+- Business Analysis & Requirement Gathering
+- Stakeholder Management
+- Agile & Scrum Practices
+- Problem Solving & Process Optimization
+- AI-driven Product Exploration (emerging focus)
 
 ---
 
 ## 🔗 Live Portfolio
 
-👉 https://resume-portfolio-robinmech1996.replit.app/
+👉 [https://portfolio-website-liard-eight-85.vercel.app/](https://portfolio-website-liard-eight-85.vercel.app/)
 
 ---
 
@@ -76,17 +77,17 @@ This portfolio is designed to:
 
 ## 🚀 Future Enhancements
 
-* Integrating AI-powered features and insights
-* Enhancing UI/UX for a more modern product feel
-* Adding detailed product case studies with measurable outcomes
-* Showcasing AI use-cases and transformation initiatives
+- Integrating AI-powered features and insights
+- Enhancing UI/UX for a more modern product feel
+- Adding detailed product case studies with measurable outcomes
+- Showcasing AI use-cases and transformation initiatives
 
 ---
 
 ## 📬 Connect With Me
 
-* GitHub: https://github.com/robin11-code
-* LinkedIn: https://www.linkedin.com/in/robin96/ 
+- GitHub: [https://github.com/robin11-code](https://github.com/robin11-code)
+- LinkedIn: [https://www.linkedin.com/in/robin96/](https://www.linkedin.com/in/robin96/)
 
 ---
 
