@@ -2,130 +2,144 @@ export const portfolioData = {
   personal: {
     name: "Robin",
     title: "Product Owner",
-    location: "Bangalore - 560060",
+    headline: "Product Owner building AI-ready SaaS products",
+    valueProposition:
+      "Seven years translating business problems into shipped products—across fintech, enterprise, and automation platforms.",
+    location: "Bangalore, India",
     email: "robinmech1996@gmail.com",
     phone: "+91 9113566236",
     linkedin: "https://www.linkedin.com/in/robin96",
-    tagline: "Product Owner with 7+ years of experience driving digital products from concept to delivery across fintech and enterprise domains.",
-    summary: "Product Owner with 7+ years of experience driving digital products from concept to delivery across fintech and enterprise domains, currently building scalable SaaS solutions at Repurpose.io. I own product backlogs, define roadmaps, and collaborate with cross-functional teams to deliver automation-driven features that enhance user experience and drive platform growth. Working in a product-first environment has strengthened my focus on customer-centric thinking, rapid iteration, and delivering measurable product outcomes. My journey from Business Analysis to Product Ownership enables me to bridge strategy, technology, and execution — ensuring that every feature delivered creates real business impact."
+    summary:
+      "I work at the intersection of business analysis and product ownership: defining what to build, why it matters, and how teams should deliver it. At Repurpose.io I own backlog and roadmap for a SaaS automation platform. Previously at GeekyAnts I led cross-functional delivery, authored PRDs and BRDs, and mentored a team of twelve analysts. I am focused on applying structured product thinking—prioritization, root-cause analysis, and outcome measurement—to AI-enabled product workflows.",
+    focusAreas: [
+      "Product strategy & roadmap alignment",
+      "Business analysis & requirement engineering",
+      "Stakeholder management & executive communication",
+      "Agile delivery & backlog ownership",
+      "AI product thinking & automation use cases",
+    ],
   },
+
+  caseStudies: [
+    {
+      title: "HR Workflow Automation",
+      company: "GeekyAnts",
+      problem:
+        "HR teams spent significant time on repetitive administrative tasks, creating delays and inconsistent process execution.",
+      approach:
+        "Mapped end-to-end workflows with stakeholders, identified automation candidates through gap analysis, and prioritized by effort vs. impact. Defined acceptance criteria and phased rollout with operations.",
+      outcome:
+        "Reduced manual administrative effort by 40% and improved process consistency across departments.",
+      role: "Led requirements discovery, wrote functional specs, and coordinated delivery with engineering.",
+    },
+    {
+      title: "Pre-Sales Estimation Tool",
+      company: "GeekyAnts",
+      problem:
+        "Sales and delivery teams lacked a standardized way to estimate project scope, leading to inconsistent turnaround times and misaligned expectations.",
+      approach:
+        "Interviewed sales and engineering leads, modeled estimation inputs, and built a lightweight tool workflow integrated into the pre-sales process.",
+      outcome:
+        "Improved estimation turnaround time by 30% and increased alignment between sales promises and delivery capacity.",
+      role: "Owned product requirements, user flows, and stakeholder sign-off before build.",
+    },
+    {
+      title: "SaaS Platform Backlog",
+      company: "Repurpose.io",
+      problem:
+        "A growing automation platform needed clearer prioritization across customer requests, technical debt, and growth initiatives.",
+      approach:
+        "Established backlog structure, outcome-based user stories, and a cadence for roadmap reviews with engineering and leadership.",
+      outcome:
+        "Improved delivery focus on measurable customer outcomes and faster iteration on high-impact automation features.",
+      role: "Product Owner—backlog ownership, roadmap definition, and cross-functional alignment.",
+    },
+  ],
+
   experience: [
     {
       role: "Product Owner",
       company: "Repurpose.io",
       period: "Mar 2026 – Present",
-      responsibilities: [
-        "Own the product backlog and define roadmaps for a scalable SaaS automation platform.",
-        "Collaborate with cross-functional teams to deliver automation-driven features that enhance user experience and drive platform growth.",
-        "Apply customer-centric thinking and rapid iteration to deliver measurable product outcomes.",
-        "Bridge strategy, technology, and execution to ensure every feature creates real business impact.",
-        "Work in a product-first environment focused on fintech and enterprise domain solutions."
-      ]
+      impacts: [
+        "Own product backlog and roadmap for a scalable SaaS automation platform.",
+        "Align engineering, design, and leadership on outcome-based delivery priorities.",
+        "Drive customer-centric iteration on automation features with measurable adoption goals.",
+      ],
     },
     {
       role: "Senior Business Analyst",
       company: "GeekyAnts",
       period: "Oct 2021 – Mar 2026",
-      responsibilities: [
-        "Develop and maintain product roadmaps, ensuring alignment with overarching business strategy.",
-        "Lead cross-functional teams to deliver projects, reducing timelines by 20%.",
-        "Author comprehensive PRDs, FSDs, and BRDs to guide development cycles.",
-        "Perform gap analysis that improved requirement accuracy by 25%.",
+      impacts: [
+        "Reduced project timelines by 20% through improved cross-functional delivery practices.",
+        "Improved requirement accuracy by 25% via structured gap analysis and PRD quality.",
         "Elevated client satisfaction by 15% through proactive stakeholder engagement.",
-        "Automated HR workflows, reducing manual administrative efforts by 40%.",
-        "Implemented a pre-sales estimation tool, improving Turnaround Time (TAT) by 30%.",
-        "Manage JIRA backlogs and mentor a team of 12 junior Business Analysts."
-      ]
+        "Mentored a team of 12 junior Business Analysts on documentation and delivery standards.",
+      ],
     },
     {
       role: "System Engineer",
-      company: "Tata Consultancy Services (TCS)",
+      company: "Tata Consultancy Services",
       period: "Mar 2021 – Oct 2021",
-      responsibilities: [
-        "Collaborated with stakeholders to gather requirements and deliver system enhancements.",
-        "Ensured compliance with technical specifications and seamless integration of new features."
-      ]
+      impacts: [
+        "Gathered stakeholder requirements and delivered system enhancements on schedule.",
+        "Ensured compliance with technical specifications across integration workstreams.",
+      ],
     },
     {
       role: "IT Specialist",
       company: "Brennan IT",
       period: "Apr 2020 – Mar 2021",
-      responsibilities: [
-        "Provided expert technical support and infrastructure solutions.",
-        "Optimized system performance and reliability across client networks."
-      ]
+      impacts: [
+        "Improved system reliability and performance across client infrastructure.",
+        "Resolved technical issues with a structured escalation and documentation process.",
+      ],
     },
     {
       role: "IT Associate",
       company: "Sutherland",
       period: "Oct 2018 – Apr 2020",
-      responsibilities: [
-        "Managed a UK insurance project utilizing SCCM, boosting operational efficiency by 20%.",
-        "Enhanced device security by 20% through Windows Server MDM implementation.",
-        "Achieved a 95% resolution rate for security issues using McAfee TBS."
-      ]
-    }
+      impacts: [
+        "Boosted operational efficiency by 20% on a UK insurance infrastructure project.",
+        "Enhanced device security by 20% through MDM implementation.",
+      ],
+    },
   ],
-  competencies: [
-    "Business & Competitive Analysis", "Agile & Scrum Methodologies", 
-    "Product Management & Roadmapping", "Requirement Gathering", 
-    "SDLC", "Data Analysis & Visualization", "Project Management", 
-    "KPI Tracking", "Process Improvement", "Sprint Planning", 
-    "Quality Assurance", "Technical Documentation", "Risk Assessment", 
-    "Client Relationship Management"
-  ],
-  technicalSkills: [
+
+  productThinking: [
     {
-      category: "Project Management",
-      skills: ["Kanban", "Release Planning", "Product Backlog", "User Stories"]
+      title: "Prioritization",
+      description:
+        "I use impact vs. effort and MoSCoW framing to keep backlogs honest. Every item ties to a user or business outcome—not activity for its own sake.",
+      examples: ["RICE scoring for feature candidates", "MoSCoW for release planning", "Outcome metrics defined before build"],
     },
     {
-      category: "Business Analysis",
-      skills: ["Use Case Modeling", "Functional Specifications", "Gap Analysis"]
+      title: "Root Cause Analysis",
+      description:
+        "When delivery slips or quality drops, I trace symptoms to systemic causes before prescribing solutions.",
+      examples: ["5 Whys for recurring defects", "Process mapping for workflow bottlenecks", "Gap analysis between as-is and target state"],
     },
     {
-      category: "Data & Analytics",
-      skills: ["A/B Testing", "Power BI", "Tableau", "Excel", "SQL", "ETL"]
+      title: "Decision-Making",
+      description:
+        "I document trade-offs explicitly: what we are optimizing for, what we are deferring, and what evidence would change the decision.",
+      examples: ["One-page decision records for scope changes", "Stakeholder alignment sessions before commitment", "Success criteria agreed upfront"],
     },
     {
-      category: "Tools & Tech",
-      skills: ["JIRA", "Azure", "UML", "DevOps", "GitHub", "Miro", "Figma", "Python"]
+      title: "AI Product Lens",
+      description:
+        "For AI-enabled features I focus on job-to-be-done clarity, human-in-the-loop requirements, and measurable value—not novelty.",
+      examples: ["Automation candidates ranked by manual effort saved", "Guardrails defined before model integration", "Adoption metrics over demo metrics"],
     },
-    {
-      category: "Design",
-      skills: ["Wireframing", "Prototyping"]
-    }
   ],
-  softSkills: [
-    "Strategic Planning & Decision-Making", 
-    "Strategic Leadership", 
-    "Cross-functional Team Collaboration", 
-    "Stakeholder & Vendor Management"
-  ],
-  education: [
-    {
-      degree: "M.B.A. (Systems & Operations)",
-      institution: "Jain University, Bengaluru",
-      period: "Aug 2022 – Nov 2024",
-      score: "CGPA: 8.5/10"
-    },
-    {
-      degree: "B.Tech. (Mechanical Engineering)",
-      institution: "Visvesvaraya Technological University (VTU)",
-      period: "Aug 2014 – Aug 2018",
-      score: "CGPA: 8.9/10"
-    }
-  ],
-  achievements: [
-    "Awarded Best Performer at GeekyAnts for 3 consecutive months for driving high client satisfaction.",
-    "Led a team of 10–12 developers to deliver key projects consistently ahead of schedule.",
-    "Instrumental in automating processes that drastically reduced manual effort across departments."
-  ],
-  certifications: [
-    {
-      name: "Fundamentals of Agile Certification",
-      issuer: "Scrum Study",
-      year: "2025"
-    }
-  ]
+
+  credentials: {
+    education: [
+      { degree: "M.B.A., Systems & Operations", school: "Jain University", year: "2024" },
+      { degree: "B.Tech., Mechanical Engineering", school: "VTU", year: "2018" },
+    ],
+    certification: "Fundamentals of Agile (Scrum Study, 2025)",
+    recognition: "Best Performer at GeekyAnts (3 consecutive months)",
+  },
 };
