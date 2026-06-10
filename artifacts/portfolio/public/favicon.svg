@@ -1,6 +1,7 @@
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="180" height="180" rx="36" fill="#0a1628"/>
-  <path fill-rule="evenodd" clip-rule="evenodd" fill="#00e5ff"
-    d="M 42,28 L 72,28 Q 144,28 144,62 Q 144,96 72,96 L 96,96 L 144,154 L 122,154 L 76,108 L 72,108 L 72,154 L 42,154 Z M 72,46 Q 120,46 120,62 Q 120,78 72,78 Z"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="6" fill="#f7f6f3"/>
+  <path
+    fill="#1f2a3d"
+    d="M10 8h7.2c3.4 0 5.8 1.8 5.8 4.7 0 2.1-1.1 3.6-2.9 4.3l4.1 6.5h-3.5l-3.7-5.9H13.2V23H10V8Zm3.2 2.7v4.5h3.6c1.8 0 2.9-.9 2.9-2.2s-1.1-2.3-2.9-2.3h-3.6Z"
   />
 </svg>
