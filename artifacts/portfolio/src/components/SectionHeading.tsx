@@ -1,30 +1,29 @@
-import { motion } from "framer-motion";
+import { FadeIn } from "./FadeIn";
 
 interface SectionHeadingProps {
+  label?: string;
   title: string;
-  subtitle?: string;
-  alignment?: "left" | "center";
+  description?: string;
 }
 
-export function SectionHeading({ title, subtitle, alignment = "left" }: SectionHeadingProps) {
+export function SectionHeading({ label, title, description }: SectionHeadingProps) {
   return (
-    <div className={`mb-12 ${alignment === "center" ? "text-center" : ""}`}>
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-100px" }}
-        transition={{ duration: 0.5 }}
-      >
-        {subtitle && (
-          <span className="text-primary font-semibold tracking-wider uppercase text-sm mb-2 block">
-            {subtitle}
-          </span>
+    <FadeIn className="mb-12 md:mb-16">
+      <div className="max-w-2xl">
+        {label && (
+          <p className="mb-3 text-sm font-medium uppercase tracking-widest text-muted-foreground">
+            {label}
+          </p>
         )}
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white mb-4">
+        <h2 className="text-2xl font-semibold text-foreground md:text-3xl">
           {title}
         </h2>
-        <div className={`h-1 w-20 bg-primary rounded-full ${alignment === "center" ? "mx-auto" : ""}`} />
-      </motion.div>
-    </div>
+        {description && (
+          <p className="mt-4 text-base leading-relaxed text-muted-foreground md:text-lg">
+            {description}
+          </p>
+        )}
+      </div>
+    </FadeIn>
   );
 }

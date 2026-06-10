@@ -1,47 +1,41 @@
-import { motion } from "framer-motion";
+import { FadeIn } from "./FadeIn";
 import { SectionHeading } from "./SectionHeading";
 import { portfolioData } from "@/lib/data";
 
 export function About() {
   return (
-    <section id="about" className="py-24 relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <SectionHeading title="Profile Summary" subtitle="About Me" />
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="prose prose-invert prose-lg text-muted-foreground"
-            >
-              <p className="leading-relaxed">
-                {portfolioData.personal.summary}
-              </p>
-            </motion.div>
-          </div>
-          
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="grid grid-cols-2 gap-4"
-          >
-            <div className="glass-panel p-6 rounded-2xl">
-              <div className="text-4xl font-display font-bold text-primary mb-2">7+</div>
-              <div className="text-sm font-medium text-muted-foreground uppercase tracking-wider">Years Experience</div>
+    <section id="about" className="section-padding">
+      <div className="container-wide">
+        <SectionHeading
+          label="About"
+          title="Product professional with an analyst's rigor"
+          description="I bridge business context and delivery execution—so teams build the right thing, for the right reasons, with clear success criteria."
+        />
+
+        <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr] lg:gap-16">
+          <FadeIn delay={100}>
+            <p className="text-base leading-7 text-muted-foreground md:text-lg md:leading-8">
+              {portfolioData.personal.summary}
+            </p>
+          </FadeIn>
+
+          <FadeIn delay={150}>
+            <div className="rounded-lg border border-border bg-muted/50 p-6 md:p-8">
+              <h3 className="mb-4 text-sm font-medium uppercase tracking-widest text-muted-foreground">
+                Focus areas
+              </h3>
+              <ul className="space-y-3">
+                {portfolioData.personal.focusAreas.map((area) => (
+                  <li
+                    key={area}
+                    className="text-sm leading-relaxed text-foreground md:text-base"
+                  >
+                    {area}
+                  </li>
+                ))}
+              </ul>
             </div>
-            <div className="glass-panel p-6 rounded-2xl">
-              <div className="text-4xl font-display font-bold text-primary mb-2">4</div>
-              <div className="text-sm font-medium text-muted-foreground uppercase tracking-wider">Companies</div>
-            </div>
-            <div className="glass-panel p-6 rounded-2xl col-span-2">
-              <div className="text-4xl font-display font-bold text-white mb-2 text-gradient">20%+</div>
-              <div className="text-sm font-medium text-muted-foreground uppercase tracking-wider">Average Timeline Reduction</div>
-            </div>
-          </motion.div>
+          </FadeIn>
         </div>
       </div>
     </section>
